@@ -1,0 +1,46 @@
+#header{
+  text-align: center;
+  color: #c7f9cc;
+  text-decoration-style: solid;
+  text-transform: uppercase;
+  font-family: fantasy;
+
+}
+body{
+  background-image: url("images/background.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+h1{
+  font-size: 120%;
+  color: #fff354;
+}
+.center{
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.column {
+  float: left;
+  width: 40%;
+  padding: 5px;
+}
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+img{
+  width: 200px;
+  height: 200px;
+}
+li,a{
+  color: #6ffc64;
+}
+h2 {
+  text-align: center;
+  color: #8e1616;
+}
